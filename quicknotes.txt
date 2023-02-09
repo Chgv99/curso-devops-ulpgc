@@ -1,0 +1,2 @@
+bd:
+docker run -e POSTGRES_PASSWORD=bookreview -e POSTGRES_USER=bookreview -e POSTGRES_DB=bookreview -v bookReview_postgresql_vol:/var/lib/postgresql/data -p 5432:5432 --name bookReview_bdd postgres:15.1
